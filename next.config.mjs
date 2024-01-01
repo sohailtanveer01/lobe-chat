@@ -44,6 +44,13 @@ const nextConfig = {
         port: '',
         protocol: 'https',
       },
+     {
+        // Replace 'yourdomain.com' with your actual domain
+        hostname: 'lobe-chat-woad-three.vercel.app',
+        pathname: '/@lobehub/**', // Adjust the path as needed
+        port: '', // Leave empty if using default port
+        protocol: 'https', // Use 'http' or 'https' as needed
+      },
     ],
     unoptimized: !isProd,
   },
